@@ -32,5 +32,5 @@ javac Calculator.java
 # Execute
 java Calculator
 
-![JDK Setup Prompt](Screenshot (13).png)
+![JDK Setup Prompt](https://github.com/Dharanikpdb-007/Task-1/blob/fa1b98101c1d0bbc0fa1444e5a590386b396f00a/Screenshot%20(13).png)
 
