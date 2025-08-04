@@ -23,6 +23,7 @@ Supports:
 - *(Optional)* **JUnit Test Skeleton** — For unit testing core arithmetic logic
 
 ---
+## 📷 Screenshot
 ![Calculator Output](https://github.com/Dharanikpdb-007/Task-1/blob/main/Screenshot%20%2813%29.png?raw=true)
 ## 🛠 How to Run
 ```bash
