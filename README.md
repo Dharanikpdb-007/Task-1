@@ -1,25 +1,33 @@
-# Simple Java Calculator
+# Java Command-Line Calculator
 
-## Overview
-This is a command-line Java calculator that supports addition, subtraction, multiplication, and division. The user is prompted to choose an operation and input two numbers; the result is displayed. Entering `$` exits the program.
+## 📌 Overview
+A simple, interactive calculator built in Java for basic arithmetic operations.
 
-## What Was Done
-- **Reviewed original code** for functional and robustness issues.
-- **Improved input validation**: ensured only valid operations are accepted and handled non-numeric input gracefully.
-- **Fixed division-by-zero logic** so that it does not attempt to print an invalid result.
-- **Refactored control flow** using a `switch` for clarity.
-- **Separated concerns**: clear messaging and looping logic.
-- **Added example usage** in comments.
-- **(Optional)** Included a simple JUnit test class template for future automated testing.
+Supports:
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)
+- Exit (`$`)
 
-## Files
-- `Calculator.java`: Main interactive calculator program.
-- `CalculatorTest.java`: (Optional) JUnit test skeleton to test arithmetic operations.
+---
 
-## How to Compile and Run
-cmd--
-# Compile 
+## 📦 Includes
+- **Interactive Menu** — User-friendly prompts to choose operations
+- **Continuous Execution** — Loop until the user chooses to exit
+- **Input Validation** — Ensures correct operation symbols and numeric inputs
+- **Division-by-Zero Handling** — Displays an error without crashing
+- **Error Messaging** — Guides users when invalid input is entered
+- **Clear Console Outputs** — Results displayed with spacing for readability
+- **Resource Management** — Uses `try-with-resources` to auto-close `Scanner`
+- *(Optional)* **JUnit Test Skeleton** — For unit testing core arithmetic logic
+
+---
+
+## 🛠 How to Run
+```bash
+# Compile
 javac Calculator.java
 
-# Run
+# Execute
 java Calculator
