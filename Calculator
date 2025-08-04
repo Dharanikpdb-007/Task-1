@@ -1,1 +1,51 @@
-efwefw
+import java.util.Scanner;
+public class Calculator {
+    static void cal(){
+        System.out.println("Choose operation : ");
+        System.out.println("+ = Addition");
+        System.out.println("- = Subtracton");
+        System.out.println("* = Multiplication");
+        System.out.println("/ = Division");
+        System.out.println("$ = Exit");
+        Scanner op = new Scanner(System.in);
+        while(true){
+        System.out.print("Choose operation : ");
+        char operator = op.next().charAt(0);
+        if (operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator != '$') {
+            System.out.println("Invalid operation ");
+            continue;
+        }
+        double result=0;
+        if(operator=='$'){
+            System.out.println("EXITING...");
+            break;
+        }
+        System.out.print("First number: ");
+        double a = op.nextDouble();
+        System.out.print("Second number: ");
+        double b = op.nextDouble();
+        if (operator == '+') {
+            result = a + b;
+        } else if (operator == '-') {
+            result = a - b;
+        } else if (operator == '*') {
+            result = a * b;
+        }else if (operator == '/') {
+            if (b == 0) {
+                System.out.println("Error: Division by zero.");
+            }
+            result = a / b;
+        }
+        System.out.println();
+        System.out.println("Result: " + result);
+        System.out.println();
+    }
+    op.close();
+}
+
+    public static void main(String[] args) {
+        cal();
+       
+    }
+}
+
