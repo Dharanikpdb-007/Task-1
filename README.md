@@ -26,12 +26,15 @@ Supports:
 ## 📷 Screenshot
 ![Calculator Output](https://github.com/Dharanikpdb-007/Task-1/blob/main/Screenshot%20%2813%29.png?raw=true)
 ## 🛠 How to Run
-```bash
+```bash```
 # Compile
-javac Calculator.java
+1. javac Calculator.java
 
 # Execute
-java Calculator
+2. java Calculator
+
+# What I did :
+  I have created on calculator using java .The calculator get the input as double and show the result also in double. If the user enter wrong operator or a wrong input it shows invalid input. The program will continue till the user enter $ (Exit). After entered exit it shows Exiting... message for user understanding.
 
 
 
