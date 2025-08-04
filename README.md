@@ -31,3 +31,6 @@ javac Calculator.java
 
 # Execute
 java Calculator
+
+![Alt Text](https://github.com/Dharanikpdb-007/Task-1/blob/7d80eca8268880df3133aeeeb12b6e5e0ac5706c/Screenshot%20(13).png)
+
